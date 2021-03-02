@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  font-family: sans-serif;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.content {
+  margin: 55px auto;
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content h1 {
+  margin: 0 auto 25px;
+}
+
+.content table {
+  margin-bottom: 50px;
+  border-collapse: collapse;
+}
+
+.content table, td, th {
+  border: 1px solid black;
+}
+
+.content th, td {
+  padding: 10px;
+}
+
