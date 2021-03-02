@@ -1,0 +1,1 @@
+web: gunicordn app:app
